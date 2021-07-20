@@ -1,0 +1,22 @@
+footer {
+  width: 100%;
+  height: 300px;
+  background-color: hsl(168, 34%, 41%);
+  text-align: center;
+  padding: 40px 20px;
+  h1 {
+    font-size: 1.8em;
+    font-family: "Barlow";
+    font-weight: 900;
+    color: $Verydarkdesaturatedblue;
+  }
+  .aboutt {
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
+    p {
+      padding: 0 20px;
+      color: $Darkdesaturatedcyan;
+    }
+  }
+}

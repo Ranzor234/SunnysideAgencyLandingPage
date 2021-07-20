@@ -1,0 +1,36 @@
+.customer-testimonials {
+  text-align: center;
+  padding: 40px 25px;
+  h2 {
+    font-family: "Fraunces";
+    color: $Darkgrayisblue;
+    text-transform: uppercase;
+    padding-bottom: 20px;
+  }
+  .testimonials {
+    @media screen and (min-width: 768px) {
+      display: flex;
+      justify-content: space-between;
+    }
+    .testimonial {
+      padding: 20px 5px;
+      img {
+        border-radius: 50%;
+      }
+      p {
+        font-family: "Barlow";
+        color: $Verydarkgrayishblue;
+        padding: 15px 0;
+      }
+      .profile {
+        h3 {
+          font-family: "Fraunces";
+        }
+        p {
+          color: $Grayishblue;
+          padding: 5px 0;
+        }
+      }
+    }
+  }
+}
